@@ -1,0 +1,15 @@
+create table Topics(
+Id int primary key,
+NameTopic varchar(200) not null,
+CourseId int not null,
+Description varbinary(200) not null,
+Video varchar(MAX) null,
+Audio varchar(MAX) null,
+DocumentTopic varchar(MAX) null,
+LikeTopic int null,
+StatusTopic int null,
+Status varchar(50) not null,
+CreatedAt datetime null,
+UpdatedAt datetime null,
+DeleteAt datetime null
+)
